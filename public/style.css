@@ -1,0 +1,8 @@
+.data-appear {
+  opacity: 0.01;
+}
+
+.data-appear.data-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
